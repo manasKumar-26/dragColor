@@ -17,7 +17,7 @@ let s=document.querySelectorAll('#container > span')
 
 for(let k=0;k<s.length;k++)
 {
-    s[k].addEventListener('mouseenter',function(){
+    s[k].addEventListener('dragover',function(){
         this.style.backgroundColor=curColor;
     })
 }
